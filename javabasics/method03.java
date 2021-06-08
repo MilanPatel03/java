@@ -9,8 +9,8 @@ public class method03 {
         Scanner review = new Scanner (System.in);
 
         Scanner scan = new Scanner (System.in);
-
-        //String type = review.nextLine();
+        
+        
 
         System.out.println("Enjoy the game? \nRate this game out of 5 ");
         int num = rate.nextInt();
@@ -43,13 +43,12 @@ public class method03 {
                     System.out.println("Sorry! You enterd Wrong Input");
                 }
             default:
-                //System.out.println("Invalid Rating, Rate us out of 5 ");
+                
                 break;
         }
 
 
-        //System.out.println(QuitetheGame());
-
+        
         
     }
 
