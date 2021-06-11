@@ -35,6 +35,9 @@ public class method03 {
 
                 if (CorQ == 'C'){
                     System.out.println("Type Here: ");
+                    String rev = review.nextLine();
+                    System.out.println("\nThanks for reviewing this game, We'll try to improve!\n");
+                    System.out.println( QuitetheGame());
                 }
                 else if (CorQ == 'Q'){
                     System.out.println(QuitetheGame());
