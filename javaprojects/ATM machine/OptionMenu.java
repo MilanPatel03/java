@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class OptionMenu extends Account {
 
 	Scanner menuInput = new Scanner(System.in);
-	DecimalFormat  oneyFormat = new DecimalFormat("'$'###,##0.00");
+	DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
 	
 	HashMap<Integer , Integer> data = new HashMap<Integer , Integer>();
 
